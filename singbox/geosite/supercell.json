@@ -1,33 +1,12 @@
 {
-    "version": 1,
-    "rules": [
-        {
-            "type": "logical",
-            "mode": "or",
-            "rules": [
-                {
-                    "domain": [
-                        "id.supercell.com",
-                        "cdn.id.supercell.com"
-                    ],
-                    "domain_suffix": [
-                        ".supercell.com",
-                        ".clashofclans.com",
-                        ".atrasis.net",
-                        ".atrasis.cc"
-                    ],
-                    "domain_keyword":[
-                        "supercell",
-                        "atrasis"
-                    ]
-                },
-                {
-                    "port": [
-                        9339
-                    ]
-                }
-            ],
-            "invert": false
-        }
-    ]
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "supercell.com",
+        "supercell.net",
+        "supercell.helpshift.com"
+      ]
+    }
+  ]
 }
