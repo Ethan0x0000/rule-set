@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 1,
   "rules": [
     {
       "domain_suffix": [
@@ -8,8 +8,7 @@
         "atrasis.net",
         "supercell.com",
         "clashofclans.com"
-      ],
-      "port": 9339
+      ]
     }
   ]
 }
