@@ -2,16 +2,21 @@
   "version": 1,
   "rules": [
     {
-      "domain_suffix": [
-        "clashk.ing",
-        "atrasis.cc",
-        "atrasis.net",
-        "supercell.com",
-        "clashofclans.com"
+      "type": "logical",
+      "mode": "or",
+      "rules": [
+        {
+          "domain_suffix": [
+            "clashk.ing",
+            "atrasis.cc",
+            "atrasis.net",
+            "supercell.com",
+            "clashofclans.com"
+          ],
+          "port": 9339
+        }
       ],
-      "port": [
-        9339
-      ]
+      "invert": false
     }
   ]
 }
