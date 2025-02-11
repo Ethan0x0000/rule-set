@@ -7,11 +7,10 @@
       "rules": [
         {
           "domain_suffix": [
-            "clashk.ing",
-            "atrasis.cc",
-            "atrasis.net",
             "supercell.com",
-            "clashofclans.com"
+            "clashofclans.com",
+            "recaptcha.net",
+            "appsflyersdk.com"
           ]
         },
         {
