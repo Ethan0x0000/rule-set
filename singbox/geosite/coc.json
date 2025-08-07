@@ -9,8 +9,9 @@
           "domain_suffix": [
             "supercell.com",
             "clashofclans.com",
-            "recaptcha.net",
-            "appsflyersdk.com"
+            "appsflyersdk.com",
+            "ingest.sentry.io",
+            "recaptcha.net"
           ]
         },
         {
