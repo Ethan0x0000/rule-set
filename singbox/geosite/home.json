@@ -1,0 +1,22 @@
+{
+  "version": 4,
+  "rules": [
+    {
+      "type": "logical",
+      "mode": "and",
+      "rules": [
+        {
+          "ip_cidr": [
+            "192.168.2.0/24"
+          ]
+        },
+        {
+          "default_interface_address": [
+            "192.168.2.0/24"
+          ],
+          "invert": true
+        }
+      ]
+    }
+  ]
+}
