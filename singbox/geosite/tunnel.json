@@ -6,14 +6,10 @@
       "mode": "and",
       "rules": [
         {
-          "ip_cidr": [
-            "192.168.2.0/24"
-          ]
+          "ip_cidr": "192.168.2.0/24"
         },
         {
-          "default_interface_address": [
-            "192.168.2.0/24"
-          ],
+          "default_interface_address": "192.168.2.0/24",
           "invert": true
         }
       ]
@@ -23,17 +19,10 @@
       "mode": "and",
       "rules": [
         {
-          "ip_cidr": [
-            "192.168.1.0/24"
-          ]
+          "ip_cidr": "192.168.1.0/24"
         },
-        {
-          "default_interface_address": [
-            "192.168.1.0/24",
-            "192.168.2.0/24"
-          ],
-          "invert": true
-        }
+        { "default_interface_address": ["192.168.1.0/24"], "invert": true },
+        { "default_interface_address": ["192.168.2.0/24"], "invert": true }
       ]
     },
     {
@@ -47,28 +36,24 @@
             {
               "ip_cidr": [
                 "10.102.0.0/16",
-                "10.202.0.0/16",
                 "10.149.0.0/16",
-                "10.160.0.0/16"
+                "10.160.0.0/16",
+                "10.202.0.0/16"
               ]
             },
             {
               "domain": [
-                "hubmi5.ethan0x0000.work",
                 "ai.tongkun5g.com"
               ]
             }
           ]
         },
-        {
-          "default_interface_address": [
-            "192.168.1.0/24",
-            "192.168.2.0/24",
-            "10.102.0.0/16",
-            "10.202.0.0/16"
-          ],
-          "invert": true
-        }
+        { "default_interface_address": ["192.168.1.0/24"], "invert": true },
+        { "default_interface_address": ["192.168.2.0/24"], "invert": true },
+        { "default_interface_address": ["10.102.0.0/16"], "invert": true },
+        { "default_interface_address": ["10.202.0.0/16"], "invert": true },
+        { "default_interface_address": ["10.149.0.0/16"], "invert": true },
+        { "default_interface_address": ["10.160.0.0/16"], "invert": true }
       ]
     }
   ]
